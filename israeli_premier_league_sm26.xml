@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ============================================================
+  Soccer Manager (SM26) – Israeli Premier League Data Pack
+  Ligat Ha'Al 2025-26 Season
+  ============================================================
+  HOW TO USE:
+  1. Upload this file to a public file host (e.g. GitHub, Pastebin, Google Drive public link)
+  2. Open Soccer Manager → Options → Data Pack → Enter URL → Load
+  3. For logos: upload your logo images to the same host and update the baseImageUrl
+  4. For player photos: same — host photos online, update baseImageUrl in PlayerData
+  ============================================================
+  LOGOS: Add the club badge image filenames inside each <C> tag
+         Example: i="maccabi_tel_aviv.png"
+         Upload your images to the same folder as this XML file
+  ============================================================
+-->
+
+<PackData
+  name="Ligat HaAl Israeli Premier League 2025-26"
+  desc="Complete Israeli Premier League data pack for Soccer Manager 2025-26. All 14 clubs, real names, real player names. Ligat Ha'Al Season.">
+
+  <!-- ===================== CLUB DATA ===================== -->
+  <!--
+    Replace baseImageUrl with the URL to your folder of club badge images.
+    Example: "https://raw.githubusercontent.com/yourname/sm26-israel/main/logos/"
+    Each image filename goes in the i="" attribute of each <C> tag.
+    Recommended logo size: 100x100 px, PNG with transparent background.
+  -->
+  <ClubData baseImageUrl="https://YOUR_HOST_URL/logos/">
+
+    <!-- Maccabi Tel Aviv – 26x Israeli champions, currently in Europa League -->
+    <C id="3001" n="Maccabi Tel Aviv"         i="maccabi_tel_aviv.png"    />
+
+    <!-- Maccabi Haifa – 10x champions, plays at Sammy Ofer Stadium -->
+    <C id="3002" n="Maccabi Haifa"            i="maccabi_haifa.png"       />
+
+    <!-- Beitar Jerusalem – 2025-26 Champions, plays at Teddy Stadium -->
+    <C id="3003" n="Beitar Jerusalem"         i="beitar_jerusalem.png"    />
+
+    <!-- Hapoel Be'er Sheva – 2025-26 Ligat HaAl Champions -->
+    <C id="3004" n="Hapoel Be'er Sheva"       i="hapoel_beer_sheva.png"   />
+
+    <!-- Hapoel Tel Aviv – Promoted from Liga Leumit 2024-25, plays at Bloomfield -->
+    <C id="3005" n="Hapoel Tel Aviv"          i="hapoel_tel_aviv.png"     />
+
+    <!-- Hapoel Jerusalem – plays at Teddy Stadium (shares with Beitar) -->
+    <C id="3006" n="Hapoel Jerusalem"         i="hapoel_jerusalem.png"    />
+
+    <!-- Hapoel Haifa – plays at Sammy Ofer Stadium -->
+    <C id="3007" n="Hapoel Haifa"             i="hapoel_haifa.png"        />
+
+    <!-- Maccabi Netanya – consistent top-flight side -->
+    <C id="3008" n="Maccabi Netanya"          i="maccabi_netanya.png"     />
+
+    <!-- Bnei Sakhnin – historic Arab-Israeli club, plays at Doha Stadium, Sakhnin -->
+    <C id="3009" n="Bnei Sakhnin"             i="bnei_sakhnin.png"        />
+
+    <!-- Ironi Kiryat Shmona – northern side near Lebanon border -->
+    <C id="3010" n="Hapoel Ironi Kiryat Shmona" i="kiryat_shmona.png"    />
+
+    <!-- FC Ashdod – coastal city club, plays at Yud-Alef Stadium -->
+    <C id="3011" n="F.C. Ashdod"              i="fc_ashdod.png"           />
+
+    <!-- Ironi Tiberias – Sea of Galilee club, promoted 2024-25 -->
+    <C id="3012" n="Ironi Tiberias"           i="ironi_tiberias.png"      />
+
+    <!-- Maccabi Bnei Reineh – Arab club from northern Israel -->
+    <C id="3013" n="Maccabi Bnei Reineh"      i="maccabi_bnei_reineh.png" />
+
+    <!-- Hapoel Petah Tikva – Promoted from Liga Leumit 2024-25 -->
+    <C id="3014" n="Hapoel Petah Tikva"       i="hapoel_petah_tikva.png"  />
+
+  </ClubData>
+
+  <!-- ===================== PLAYER DATA ===================== -->
+  <!--
+    Replace baseImageUrl with the URL to your folder of player face images.
+    Example: "https://raw.githubusercontent.com/yourname/sm26-israel/main/players/"
+    Each image filename goes in the i="" attribute of each <P> tag.
+    Fields: f=First name, s=Surname, i=Image filename, c=Club id (optional)
+    Recommended photo size: 180x180 px, JPG
+  -->
+  <PlayerData baseImageUrl="https://YOUR_HOST_URL/players/">
+
+    <!-- ============================== -->
+    <!-- MACCABI TEL AVIV               -->
+    <!-- ============================== -->
+    <!-- Goalkeepers -->
+    <P id="4001" f="Roei"        s="Amedi"            i="roei_amedi.jpg"          />
+    <P id="4002" f="Daniel"      s="Peretz"            i="daniel_peretz.jpg"       />
+
+    <!-- Defenders -->
+    <P id="4003" f="Roy"         s="Revivo"            i="roy_revivo.jpg"          />
+    <P id="4004" f="Raz"         s="Shlomo"            i="raz_shlomo.jpg"          />
+    <P id="4005" f="Noam"        s="Ben Harush"        i="noam_ben_harush.jpg"     />
+    <P id="4006" f="Sagiv"       s="Yehezkel"          i="sagiv_yehezkel.jpg"      />
+    <P id="4007" f="Denny"       s="Gropper"           i="denny_gropper.jpg"       />
+    <P id="4008" f="Mohamed Ali" s="Camara"            i="camara.jpg"              />
+    <P id="4009" f="Tyrese"      s="Asante"            i="tyrese_asante.jpg"       />
+
+    <!-- Midfielders -->
+    <P id="4010" f="Dor"         s="Peretz"            i="dor_peretz.jpg"          />
+    <P id="4011" f="Ben"         s="Lederman"          i="ben_lederman.jpg"        />
+    <P id="4012" f="Osher"       s="Davida"            i="osher_davida.jpg"        />
+    <P id="4013" f="Ido"         s="Shahar"            i="ido_shahar.jpg"          />
+    <P id="4014" f="Itamar"      s="Noy"               i="itamar_noy.jpg"          />
+    <P id="4015" f="Kristijan"   s="Belic"             i="kristijan_belic.jpg"     />
+    <P id="4016" f="Kervin"      s="Andrade"           i="kervin_andrade.jpg"      />
+    <P id="4017" f="Issouf"      s="Bemba Sissokho"    i="sissokho.jpg"            />
+
+    <!-- Forwards -->
+    <P id="4018" f="Sayed"       s="Abu Farkhi"        i="abu_farkhi.jpg"          />
+    <P id="4019" f="Ion"         s="Nicolaescu"        i="ion_nicolaescu.jpg"      />
+    <P id="4020" f="Elad"        s="Madmon"            i="elad_madmon.jpg"         />
+    <P id="4021" f="Helio"       s="Varela"            i="helio_varela.jpg"        />
+
+    <!-- ============================== -->
+    <!-- MACCABI HAIFA                  -->
+    <!-- ============================== -->
+    <!-- Goalkeepers -->
+    <P id="4030" f="Yoav"        s="Gerafi"            i="yoav_gerafi.jpg"         />
+    <P id="4031" f="Roy"         s="Mishpati"          i="roy_mishpati.jpg"        />
+
+    <!-- Defenders -->
+    <P id="4032" f="Sun"         s="Menahem"           i="sun_menahem.jpg"         />
+    <P id="4033" f="Liad"        s="Shoef"             i="liad_shoef.jpg"          />
+    <P id="4034" f="Daniel"      s="Kandil"            i="daniel_kandil.jpg"       />
+    <P id="4035" f="Suf"         s="Podgoreanu"        i="suf_podgoreanu.jpg"      />
+    <P id="4036" f="Dolev"       s="Haziza"            i="dolev_haziza.jpg"        />
+
+    <!-- Midfielders -->
+    <P id="4037" f="Neta"        s="Lavi"              i="neta_lavi.jpg"           />
+    <P id="4038" f="Omer"        s="Atzili"            i="omer_atzili.jpg"         />
+    <P id="4039" f="Mohammad"    s="Abu Fani"          i="abu_fani.jpg"            />
+    <P id="4040" f="Tjaronn"     s="Chery"             i="tjaronn_chery.jpg"       />
+    <P id="4041" f="Eden"        s="Shamir"            i="eden_shamir.jpg"         />
+
+    <!-- Forwards -->
+    <P id="4042" f="Guy"         s="Melamed"           i="guy_melamed.jpg"         />
+    <P id="4043" f="Dean"        s="David"             i="dean_david.jpg"          />
+    <P id="4044" f="Frantzdy"    s="Pierrot"           i="frantzdy_pierrot.jpg"    />
+
+    <!-- ============================== -->
+    <!-- BEITAR JERUSALEM               -->
+    <!-- ============================== -->
+    <!-- Goalkeepers -->
+    <P id="4050" f="Ariel"       s="Harush"            i="ariel_harush.jpg"        />
+    <P id="4051" f="Saar"        s="Fadida"            i="saar_fadida.jpg"         />
+
+    <!-- Defenders -->
+    <P id="4052" f="Ali"         s="Mohamed"           i="ali_mohamed.jpg"         />
+    <P id="4053" f="Idan"        s="Vered"             i="idan_vered.jpg"          />
+    <P id="4054" f="David"       s="Keltjens"          i="david_keltjens.jpg"      />
+    <P id="4055" f="Joshua"      s="Bohui"             i="joshua_bohui.jpg"        />
+    <P id="4056" f="Matan"       s="Peleg"             i="matan_peleg.jpg"         />
+
+    <!-- Midfielders -->
+    <P id="4057" f="Yonatan"     s="Cohen"             i="yonatan_cohen.jpg"       />
+    <P id="4058" f="Maharan"     s="Radi"              i="maharan_radi.jpg"        />
+    <P id="4059" f="Gabi"        s="Kanichowsky"       i="gabi_kanichowsky.jpg"    />
+    <P id="4060" f="Dan"         s="Biton"             i="dan_biton.jpg"           />
+    <P id="4061" f="Itay"        s="Shechter"          i="itay_shechter.jpg"       />
+
+    <!-- Forwards -->
+    <P id="4062" f="Nikita"      s="Ioannidis"         i="nikita_ioannidis.jpg"    />
+    <P id="4063" f="Antonio"     s="Sefer"             i="antonio_sefer.jpg"       />
+    <P id="4064" f="Moshe"       s="Oghenekaro"        i="moshe_oghenekaro.jpg"    />
+
+    <!-- ============================== -->
+    <!-- HAPOEL BE'ER SHEVA             -->
+    <!-- ============================== -->
+    <!-- Goalkeepers -->
+    <P id="4070" f="Tomer"       s="Chencinski"        i="tomer_chencinski.jpg"    />
+    <P id="4071" f="Barak"       s="Levi"              i="barak_levi.jpg"          />
+
+    <!-- Defenders -->
+    <P id="4072" f="Tamir"       s="Cohen"             i="tamir_cohen.jpg"         />
+    <P id="4073" f="Miguel"      s="Vitor"             i="miguel_vitor.jpg"        />
+    <P id="4074" f="Gal"         s="Goldberg"          i="gal_goldberg.jpg"        />
+    <P id="4075" f="Dario"       s="Maresic"           i="dario_maresic.jpg"       />
+    <P id="4076" f="Michael"     s="Ngadeu"            i="michael_ngadeu.jpg"      />
+
+    <!-- Midfielders -->
+    <P id="4077" f="Eliel"       s="Peretz"            i="eliel_peretz.jpg"        />
+    <P id="4078" f="Lior"        s="Refaelov"          i="lior_refaelov.jpg"       />
+    <P id="4079" f="Ben"         s="Sahar"             i="ben_sahar.jpg"           />
+    <P id="4080" f="Maor"        s="Melikson"          i="maor_melikson.jpg"       />
+    <P id="4081" f="Yonatan"     s="Hozez"             i="yonatan_hozez.jpg"       />
+
+    <!-- Forwards -->
+    <P id="4082" f="Guy"         s="Melamed"           i="guy_melamed2.jpg"        />
+    <P id="4083" f="Shoval"      s="Gozlan"            i="shoval_gozlan.jpg"       />
+    <P id="4084" f="Niv"         s="Zkin"              i="niv_zkin.jpg"            />
+
+    <!-- ============================== -->
+    <!-- HAPOEL TEL AVIV                -->
+    <!-- ============================== -->
+    <!-- Goalkeepers -->
+    <P id="4090" f="Ariel"       s="Harush"            i="ariel_harush2.jpg"       />
+    <P id="4091" f="Barak"       s="Yohananov"         i="barak_yohananov.jpg"     />
+
+    <!-- Defenders -->
+    <P id="4092" f="Moshe"       s="Lugasi"            i="moshe_lugasi.jpg"        />
+    <P id="4093" f="Dekel"       s="Keinan"            i="dekel_keinan.jpg"        />
+    <P id="4094" f="Oshri"       s="Roash"             i="oshri_roash.jpg"         />
+    <P id="4095" f="Omri"        s="Ben Harush"        i="omri_ben_harush.jpg"     />
+
+    <!-- Midfielders -->
+    <P id="4096" f="Maor"        s="Levi"              i="maor_levi.jpg"           />
+    <P id="4097" f="Yarden"      s="Shua"              i="yarden_shua.jpg"         />
+    <P id="4098" f="Stav"        s="Turiel"            i="stav_turiel.jpg"         />
+    <P id="4099" f="Eran"        s="Zahavi"            i="eran_zahavi.jpg"         />
+
+    <!-- Forwards -->
+    <P id="4100" f="Vidar"       s="Orn Kjartansson"   i="vidar_kjartansson.jpg"   />
+    <P id="4101" f="Dor"         s="Pered"             i="dor_pered.jpg"           />
+
+    <!-- ============================== -->
+    <!-- HAPOEL JERUSALEM               -->
+    <!-- ============================== -->
+    <P id="4110" f="Tamir"       s="Danan"             i="tamir_danan.jpg"         />
+    <P id="4111" f="Avi"         s="Rikan"             i="avi_rikan.jpg"           />
+    <P id="4112" f="Sagiv"       s="Tur"               i="sagiv_tur.jpg"           />
+    <P id="4113" f="Roei"        s="Gordana"           i="roei_gordana.jpg"        />
+    <P id="4114" f="Gal"         s="Cohen"             i="gal_cohen.jpg"           />
+    <P id="4115" f="Tomer"       s="Vered"             i="tomer_vered.jpg"         />
+    <P id="4116" f="Khaled"      s="Khalil"            i="khaled_khalil.jpg"       />
+    <P id="4117" f="Dor"         s="Micha"             i="dor_micha.jpg"           />
+    <P id="4118" f="Neta"        s="Lavi"              i="neta_lavi2.jpg"          />
+
+    <!-- ============================== -->
+    <!-- HAPOEL HAIFA                   -->
+    <!-- ============================== -->
+    <P id="4120" f="Tomer"       s="Yosefi"            i="tomer_yosefi.jpg"        />
+    <P id="4121" f="Raz"         s="Meir"              i="raz_meir.jpg"            />
+    <P id="4122" f="Boris"       s="Enow"              i="boris_enow.jpg"          />
+    <P id="4123" f="Elianiv"     s="Barda"             i="elianiv_barda.jpg"       />
+    <P id="4124" f="Marko"       s="Scepovic"          i="marko_scepovic.jpg"      />
+    <P id="4125" f="Einan"       s="Levi"              i="einan_levi.jpg"          />
+    <P id="4126" f="Dekel"       s="Sabag"             i="dekel_sabag.jpg"         />
+    <P id="4127" f="Ofir"        s="Davidzada"         i="ofir_davidzada.jpg"      />
+
+    <!-- ============================== -->
+    <!-- MACCABI NETANYA                -->
+    <!-- ============================== -->
+    <P id="4130" f="Roei"        s="Nevo"              i="roei_nevo.jpg"           />
+    <P id="4131" f="Moshe"       s="Kamara"            i="moshe_kamara.jpg"        />
+    <P id="4132" f="Shahar"      s="Keinan"            i="shahar_keinan.jpg"       />
+    <P id="4133" f="Idan"        s="Ben Dayan"         i="idan_ben_dayan.jpg"      />
+    <P id="4134" f="Ora"         s="Shovalia"          i="ora_shovalia.jpg"        />
+    <P id="4135" f="Mahmod"      s="Abu Warda"         i="mahmod_abu_warda.jpg"    />
+    <P id="4136" f="Arbenit"     s="Xhemajli"          i="arbenit_xhemajli.jpg"    />
+    <P id="4137" f="Enow"        s="Sebastien"         i="enow_sebastien.jpg"      />
+
+    <!-- ============================== -->
+    <!-- BNEI SAKHNIN                   -->
+    <!-- ============================== -->
+    <P id="4140" f="Mahmoud"     s="Kandil"            i="mahmoud_kandil.jpg"      />
+    <P id="4141" f="Marwan"      s="Abu Salim"         i="marwan_abu_salim.jpg"    />
+    <P id="4142" f="Barak"       s="Itzhaki"           i="barak_itzhaki.jpg"       />
+    <P id="4143" f="Shadi"       s="Asfor"             i="shadi_asfor.jpg"         />
+    <P id="4144" f="Yosi"        s="Ben Haim"          i="yosi_ben_haim.jpg"       />
+    <P id="4145" f="Naseem"      s="Bashir"            i="naseem_bashir.jpg"       />
+    <P id="4146" f="Solomon"     s="Okoronkwo"         i="solomon_okoronkwo.jpg"   />
+    <P id="4147" f="Moanes"      s="Dabour"            i="moanes_dabour.jpg"       />
+
+    <!-- ============================== -->
+    <!-- HAPOEL IRONI KIRYAT SHMONA     -->
+    <!-- ============================== -->
+    <P id="4150" f="Shareef"     s="Keouf"             i="shareef_keouf.jpg"       />
+    <P id="4151" f="Oren"        s="Ziv"               i="oren_ziv.jpg"            />
+    <P id="4152" f="Adom"        s="Kwarasey"          i="adom_kwarasey.jpg"       />
+    <P id="4153" f="Omri"        s="Gan"               i="omri_gan.jpg"            />
+    <P id="4154" f="Rotem"       s="Hatuel"            i="rotem_hatuel.jpg"        />
+    <P id="4155" f="Mahmoud"     s="Jaber"             i="mahmoud_jaber.jpg"       />
+    <P id="4156" f="Loai"        s="Taha"              i="loai_taha.jpg"           />
+    <P id="4157" f="Aseel"       s="Kna'ani"           i="aseel_knaani.jpg"        />
+
+    <!-- ============================== -->
+    <!-- FC ASHDOD                      -->
+    <!-- ============================== -->
+    <P id="4160" f="Dor"         s="Peretz"            i="dor_peretz2.jpg"         />
+    <P id="4161" f="Amir"        s="Shabat"            i="amir_shabat.jpg"         />
+    <P id="4162" f="Ben"         s="Itzhak"            i="ben_itzhak.jpg"          />
+    <P id="4163" f="Ori"         s="Yankelevich"       i="ori_yankelevich.jpg"     />
+    <P id="4164" f="Omri"        s="Ben Harush"        i="omri_ben_harush2.jpg"    />
+    <P id="4165" f="Dor"         s="Micha"             i="dor_micha2.jpg"          />
+    <P id="4166" f="Elitzur"     s="Cohen"             i="elitzur_cohen.jpg"       />
+    <P id="4167" f="Salah"       s="Yussuf"            i="salah_yussuf.jpg"        />
+
+    <!-- ============================== -->
+    <!-- IRONI TIBERIAS                 -->
+    <!-- ============================== -->
+    <P id="4170" f="Sagi"        s="Shimon"            i="sagi_shimon.jpg"         />
+    <P id="4171" f="Arel"        s="Tubi"              i="arel_tubi.jpg"           />
+    <P id="4172" f="Tal"         s="Ben Haim"          i="tal_ben_haim.jpg"        />
+    <P id="4173" f="Yishai"      s="Tzedek"            i="yishai_tzedek.jpg"       />
+    <P id="4174" f="Solomon"     s="Foto"              i="solomon_foto.jpg"        />
+    <P id="4175" f="Mohammed"    s="Shaker"            i="mohammed_shaker.jpg"     />
+    <P id="4176" f="Oded"        s="Govach"            i="oded_govach.jpg"         />
+
+    <!-- ============================== -->
+    <!-- MACCABI BNEI REINEH            -->
+    <!-- ============================== -->
+    <P id="4180" f="Suleiman"    s="Abdullahi"         i="suleiman_abdullahi.jpg"  />
+    <P id="4181" f="Kamil"       s="Agha"              i="kamil_agha.jpg"          />
+    <P id="4182" f="Amjad"       s="Marshud"           i="amjad_marshud.jpg"       />
+    <P id="4183" f="Asil"        s="Kna'ani"           i="asil_knaani.jpg"         />
+    <P id="4184" f="Mustafa"     s="Khatib"            i="mustafa_khatib.jpg"      />
+    <P id="4185" f="Razi"        s="Suan"              i="razi_suan.jpg"           />
+    <P id="4186" f="Anas"        s="Mahamid"           i="anas_mahamid.jpg"        />
+    <P id="4187" f="Shadi"       s="Awad"              i="shadi_awad.jpg"          />
+
+    <!-- ============================== -->
+    <!-- HAPOEL PETAH TIKVA             -->
+    <!-- ============================== -->
+    <P id="4190" f="Tomer"       s="Amsalem"           i="tomer_amsalem.jpg"       />
+    <P id="4191" f="Itay"        s="Nusinov"           i="itay_nusinov.jpg"        />
+    <P id="4192" f="Or"          s="Shiloni"           i="or_shiloni.jpg"          />
+    <P id="4193" f="Netanel"     s="Yosipov"           i="netanel_yosipov.jpg"     />
+    <P id="4194" f="Erez"        s="Mesika"            i="erez_mesika.jpg"         />
+    <P id="4195" f="Barak"       s="Keinan"            i="barak_keinan.jpg"        />
+    <P id="4196" f="Ido"         s="Ben Dayan"         i="ido_ben_dayan.jpg"       />
+    <P id="4197" f="Tom"         s="Kisilevitz"        i="tom_kisilevitz.jpg"      />
+    <P id="4198" f="Miki"        s="Levin"             i="miki_levin.jpg"          />
+
+  </PlayerData>
+
+</PackData>
